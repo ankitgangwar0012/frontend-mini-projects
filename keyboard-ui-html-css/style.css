@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.keyboard {
+    background-color: rgb(197, 197, 197);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20vh auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(30, 30px);
+    grid-template-rows: repeat(5, 60px);
+}
+
+.key {
+    background-color: rgb(243, 243, 243);
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 17px;
+    border-radius: 8px;
+    grid-column: span 2;
+}
+
+.key:hover {
+    border-color: rgb(243, 243, 243);
+    font-size: 22px;
+}
+
+.backspace {
+    grid-column: span 4;
+}
+
+.tab {
+    grid-column: span 3;
+}
+
+.backslash {
+    grid-column: span 3;
+}
+
+.capslk {
+    grid-column: span 4;
+}
+
+.enter {
+    grid-column: span 4;
+}
+
+.shift {
+    grid-column: span 5;
+}
+
+.shift {
+    grid-column: span 5;
+}
+
+.window {
+    grid-column: span 3;
+}
+
+.lctrl {
+    grid-column: span 3;
+}
+
+.space {
+    grid-column: span 13;
+}
