@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+body{
+    font-family: poppins,sans-serif;
+}
+
+header{
+    padding: 10px;
+
+}
+
+header .title{
+    border-bottom: 3px solid orangered;
+    margin: 0 8px;
+}
+
+h1{
+    text-align: center;
+    padding: 4px;
+    text-shadow: 1px 1px 5px #00000038;
+}
+
+header > span{
+    padding-left: 8px;
+    font-style: italic;
+}
+
+/* periodic table styling */
+.alkali-metal {
+    background-color: #ff4fd8; 
+}
+
+.alkaline-earth {
+    background-color: #c77dff; 
+}
+
+.transition-metal {
+    background-color: #4cc9f0;
+}
+
+.basic-metal {
+    background-color: #e38f61; 
+}
+
+.metalloid {
+    background-color: #2ecc71; 
+}
+
+.nonmetal {
+    background-color: #3498db;
+}
+
+.halogen {
+    background-color: #f1c40f; 
+}
+
+.noble-gas {
+    background-color: #f39c12;
+}
+
+.lanthanide {
+    background-color: #9ef01a;
+}
+
+.actinide {
+    background-color: #ff2d2d;
+}
+
+.periodic-table{
+    display: grid;
+    grid-template-columns: repeat(18,80px);
+    grid-template-rows: repeat(9,75px);
+    gap: 2px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.element{
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.element .atomic-number{
+    display: block;
+    font-size: 12px;
+    text-align: left;
+
+}
+.element .symbol{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    top: -3px;
+}
+
+.element .name{
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    top: -6px;
+}
+.element .weight{
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    position: relative;
+    top: -8px;
+}
+
+.r1-empty{
+    grid-column: 2/18;
+    grid-row: 1/2
+}
+
+.r2-empty{
+    grid-column:3/13 ;
+    grid-row: 2/3;
+}
+.r3-empty{
+    grid-column:3/13 ;
+    grid-row: 3/4;
+}
+
+.r6-empty{
+    grid-column: 3/4;
+    grid-row: 6/7;
+    border: 2px solid black;
+    font-size: 12px;
+    padding: 3px;
+     background-color: #9ef01a;
+}
+
+.r7-empty{
+    grid-column: 3/4;
+    grid-row: 7/8;
+    border: 2px solid black;
+    font-size: 12px;
+    padding: 3px;
+    background-color: #ff2d2d;
+}
+
+.r8i-empty{
+    grid-row: 8/9;
+    grid-column: 1/3;
+}
+
+.r8ii-empty{
+    grid-row: 8/9;
+    grid-column: 18/19;
+}
+
+.r9i-empty{
+    grid-row: 9/10;
+    grid-column: 1/3;
+}
+
+.r9ii-empty{
+    grid-row: 9/10;
+    grid-column: 18/19;
+}
+
+.lanthanide{
+    order: 1000;
+}
+
+.actinide{
+    order: 10000;
+}
+
+
+.element:hover ,.r6-empty:hover,.r7-empty:hover ,.element-demo:hover{
+  z-index: 1;
+  animation: scale 0.5s ease-in-out forwards;
+  border: 1px solid black;
+}
+
+@keyframes scale {
+  0%   { transform: scale(1,1);}
+  10%  { transform: scale(1.1,0.7);}
+  30%  { transform: scale(1.7,0.9);}
+  50%  { transform: scale(0.9,1.3)}
+  100% { transform: scale(1.3,1.5);}
+}
+
+/* element deccription - flexbox */
+
+.element-type{
+    width: 920px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.element-type .item{
+    width: 78px;
+    height: 78px;
+    padding: 2px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    box-shadow: 0 16px 10px #00000030;
+}
+
+.item1{
+    background-color:  #ff4fd8;
+}
+
+.item2{
+    background-color: #c77dff;
+}
+
+.item3{
+    background-color:#4cc9f0 ;
+}
+
+.item4{
+    background-color:#e38f61;
+}
+.item5{
+    background-color:#2ecc71;
+}
+.item6{
+    background-color:#3498db;
+}
+.item7{
+    background-color:#f1c40f;
+}
+.item8{
+    background-color:#f39c12;
+}
+.item9{
+    background-color:#9ef01a;
+}
+.item10{
+    background-color:#ff2d2d;
+}
+
+/* container */
+
+.container{
+    position: relative;
+    padding-top: 150px;
+}
+
+
+/* Demo Element */
+
+.element-demo{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #4cc9f0;
+    position: absolute;
+    left: 500px;
+    top: 60px; 
+}
+
+.element-demo span{
+    display: block;
+    font-size: 10px;
+    position: relative;
+    top: -6px;
+}
+
+.atomic-number-demo span{
+    display: inline-block;
+}
+.atomic-number-demo{
+    text-align: left;
+    font-size: 20px;
+}
+
+.symbol-demo{
+    font-size: 50px;
+}
+
+.symbol-demo span{
+    top: -12px;
+}
+
+.name-demo{
+    font-size: 20px;
+}
+
+.weight-demo{
+    font-size: 20px;
+    position: relative;
+    top: -3px;
+}
+
+/* footer */
+
+footer{
+margin-top:10px;
+background-color: black;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+.footer-title span{
+    color: #ff2d2d;
+}
+
+.about{
+    margin-top: 5px;
+}
+.about > span{
+    margin: 5px;
+    display: block;
+}
+
+.about a{
+    text-decoration: none;
+    color: #1559f7;
+}
+
+.about a:hover{
+    color: #ff2d2d;
+}
