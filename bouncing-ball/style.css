@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: blue;
+    width: 90vw;
+    height: 70vh;
+    min-height: 400px;
+    margin: 10vh auto;
+    position: relative;
+}
+
+.ball {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 100%;
+    animation: xdir 2s linear 1s infinite, ydir 1s ease-out 1s infinite;
+}
+
+@keyframes xdir {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 50%;
+    }
+
+    100% {
+        left: calc(100% - 60px);
+    }
+}
+
+@keyframes ydir {
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 50%;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
