@@ -74,7 +74,6 @@ Periodic table layout using HTML & CSS
 | **Multi Color Navbar** | Colorful navigation bar UI | [Open](./multi-color-navbar/) |
 | **CSS Card** | Simple card UI using CSS | [Open](./css-card/) |
 | **Navbar (Flexbox)** | Responsive navbar using Flexbox | [Open](./navbar-flex/) |
-| **Responsive Design** | Responsive layout design practice | [Open](./responsive-design/) |
 | **Stylish Buttons** | Animated and stylish CSS buttons | [Open](./stylish-buttons/) |
 | **Navbar (Float)** | Navigation bar using float layout | [Open](./navbar-float/) |
 
