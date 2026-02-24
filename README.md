@@ -34,9 +34,9 @@ Each project is organized in its own folder with clean structure and live previe
 
 ## 🚀 Featured Projects
 
-### 🎹 Keyboard UI
-A visually accurate keyboard layout built using CSS Grid.  
-👉 [View Project](./keyboard-ui)
+### 🎬 Netflix Clone UI  
+Responsive Netflix landing page clone built using HTML & CSS  
+👉 [View Project](./netflix-clone/) 👉[Live Demo](https://netflax-dotcom.netlify.app/)
 
 ---
 
@@ -46,9 +46,9 @@ A smooth CSS animation demonstrating motion, gravity, and boundaries.
 
 ---
 
-### 🧭 Side Navbar
-A responsive navigation bar layout using modern CSS techniques.  
-👉 [View Project](./side-navbar/)
+### 🎹 Keyboard UI
+A visually accurate keyboard layout built using CSS Grid.  
+👉 [View Project](./keyboard-ui)
 
 ---
 
@@ -62,6 +62,7 @@ Periodic table layout using HTML & CSS
 
 | Project Name | Description | Link |
 |-------------|------------|------|
+| **Netflix Clone** | Responsive Netflix Landing Page Clone | [Open](./netflix-ui-clone/) | 
 | **Bouncing Ball** | CSS bouncing ball animation | [Open](./bouncing-ball/) |
 | **Bouncing Ball v2** | Alternative approach to bouncing ball animation | [Open](./bouncing-ball-v2/) |
 | **Side Navbar** | Sidebar navigation UI | [Open](./side-navbar/) |
