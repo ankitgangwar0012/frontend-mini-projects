@@ -36,7 +36,7 @@ Each project is organized in its own folder with clean structure and live previe
 
 ### 🎬 Netflix Clone UI  
 Responsive Netflix landing page clone built using HTML & CSS  
-👉 [View Project](./netflix-clone/) 👉[Live Demo](https://netflax-dotcom.netlify.app/)
+👉 [View Project](./netflix-ui-clone/) 👉[Live Demo](https://netflax-dotcom.netlify.app/)
 
 ---
 
