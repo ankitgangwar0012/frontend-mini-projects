@@ -10,6 +10,9 @@ This project replicates the design and layout of Netflix India's homepage for le
 
 ![Desktop Preview](preview/desktop-preview.gif)
 
+👉[Live Demo](https://netflax-dotcom.netlify.app/)
+
+
 ---
 
 
@@ -82,3 +85,4 @@ This project is open source and free to use for learning purposes.
 
 ## Author
 **Ankit Gangwar**
+
