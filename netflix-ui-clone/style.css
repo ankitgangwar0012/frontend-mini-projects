@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav {
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
+
+#nav .logo img {
+    width: 10em;
+}
+
+#nav .select-btn {
+    display: inline-block;
+    position: relative;
+}
+
+#nav .select-btn svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+}
+
+#nav select {
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.358);
+    padding: 4px 18px;
+    padding-left: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+}
+
+#nav button {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 4px 18px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    margin-left: 10px;
+    transition: 0.2s background-color;
+}
+
+#nav button:hover {
+    background-color: rgb(193, 17, 25);
+    cursor: pointer;
+}
+
+.hero-text {
+    color: white;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.hero-text .line1 {
+    font-size: 30px;
+}
+
+.hero-text .line2 {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero-text .line3 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.login .line4,
+.hero-text .line4 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.login .line4 input,
+.hero-text .line4 input {
+    border: 2px solid rgba(255, 255, 255, 0.358);
+    background-color: #00000082;
+    font-size: 17px;
+    padding: 18px;
+    border-radius: 4px;
+    flex-grow: 1;
+}
+
+.login .line4 button,
+.hero-text .line4 button {
+    border: none;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    font-size: 25px;
+    font-weight: 600;
+    padding: 14px 20px;
+    border-radius: 4px;
+    transition: 0.2s background-color;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login .line4 button:hover,
+.hero-text .line4 button:hover {
+    background-color: rgb(193, 17, 25);
+    cursor: pointer;
+}
+
+.box {
+    background-image: url(images/Hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.curved-line {
+    width: 100%;
+    height: 50px;
+    transform: translateY(-20px);
+    border-top: 4px solid #ff006fd1;
+    border-top-left-radius: 50% 100%;
+    position: relative;
+    z-index: 1;
+    background-color: black;
+    border-top-right-radius: 50% 100%;
+}
+
+.trending {
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.trending h2 {
+    color: white;
+    font-weight: 500;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: repeat(10, 197px);
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 40px;
+    padding: 15px;
+}
+
+
+.movie-card {
+    border-radius: 10px;
+    height: 276px;
+    cursor: pointer;
+    transition: 0.2s transform;
+    position: relative;
+}
+
+.movie-card img {
+    border-radius: 10px;
+}
+
+.movie-card::before {
+    text-shadow: 1px 1px white, -1px -1px white;
+    font-size: 100px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-10px, 20px);
+
+}
+
+.movie-card.trend1::before {
+    content: "1";
+}
+
+.movie-card.trend2::before {
+    content: "2";
+}
+
+.movie-card.trend3::before {
+    content: "3";
+}
+
+.movie-card.trend4::before {
+    content: "4";
+}
+
+.movie-card.trend5::before {
+    content: "5";
+}
+
+.movie-card.trend6::before {
+    content: "6";
+}
+
+.movie-card.trend7::before {
+    content: "7";
+}
+
+.movie-card.trend8::before {
+    content: "8";
+}
+
+.movie-card.trend9::before {
+    content: "9";
+}
+
+.movie-card.trend10::before {
+    content: "10";
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.join {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.join h2 {
+    color: white;
+    font-weight: 500;
+}
+
+.advs {
+    display: flex;
+    color: white;
+    padding: 20px 0;
+    justify-content: space-between;
+
+}
+
+.advs>div h3 {
+    font-size: 20px;
+}
+
+.advs>div {
+    background-image: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    padding: 10px;
+    width: 24%;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.advs>div .icon {
+    align-self: self-end;
+}
+
+/* Frequently asked questons */
+.ques-ans {
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.ques-ans h2 {
+    font-weight: 500;
+}
+
+.questions {
+    list-style-type: none;
+}
+
+.questions li {
+    background-color: rgb(45, 45, 45);
+    cursor: pointer;
+    transition: 0.2s all;
+    margin: 8px 0;
+}
+
+.questions li:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.questions li button {
+    display: block;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 24px;
+    padding: 25px;
+    border: none;
+    text-align: left;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+.login .line3 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.login .line4 {
+    width: 55%;
+    margin: auto;
+}
+
+/* footer */
+footer {
+    width: 80%;
+    margin: 80px auto 100px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer .links {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links>ul {
+    list-style-type: none;
+}
+
+.links>ul li {
+    margin: 10px 0;
+}
+
+
+footer .select-btn {
+    display: inline-block;
+    position: relative;
+}
+
+footer .select-btn svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+}
+
+footer select {
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.358);
+    padding: 4px 18px;
+    padding-left: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+}
+
+footer .branding {
+    font-size: 15px;
+    margin: 50px 0;
+}
+
+footer .verification {
+    font-size: 13px;
+}
+
+footer .verification a {
+    color: rgb(68, 142, 244);
+}
+
+/* Adjustments for visibility perpose */
+option {
+    background-color: white;
+    color: black;
+}
+
+input {
+    color: white;
+}
+
+/* Reaponsive Design - media Quieries */
+
+@media screen and (max-width:1200px) {
+
+    .header,
+    .box {
+        height: 50vh;
+    }
+
+    .header #nav {
+        width: 90%;
+    }
+
+    .hero-text {
+        width: 55%;
+    }
+
+    .hero-text .line1 {
+        font-size: 20px;
+    }
+
+    .advs {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .advs>div {
+        width: 49%;
+    }
+
+    footer .links {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:580px) {
+    .header #nav {
+        width: 98%;
+    }
+
+    .header,
+    .box {
+        height: 72vh;
+    }
+
+    .curved-line {
+        border-top-left-radius: 50% 30%;
+        border-top-right-radius: 50% 30%;
+    }
+
+    #nav .logo img {
+        width: 6em;
+    }
+
+    .hero-text {
+        width: 80%;
+    }
+
+    .hero-text .line1 h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .hero-text .line2 {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .hero-text .line1 {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .hero-text .line4 {
+        flex-direction: column;
+    }
+
+    .hero-text .line4 input {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .hero-text .line4 button {
+        width: 160px;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .advs {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .advs>div {
+        width: 100%;
+    }
+
+    .login {
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    .login .line3 {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .login .line4 {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .login .line4 input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .login .line4 button {
+        padding: 10px;
+    }
+
+    footer .links {
+        flex-direction: column;
+    }
+}
