@@ -62,6 +62,7 @@ Periodic table layout using HTML & CSS
 
 | Project Name | Description | Link |
 |-------------|------------|------|
+| **Faulty Calculator** | A fun and interactive Faulty Calculator | [Open](./faulty-calculator-js/) |
 | **Netflix Clone** | Responsive Netflix Landing Page Clone | [Open](./netflix-ui-clone/) | 
 | **Bouncing Ball** | CSS bouncing ball animation | [Open](./bouncing-ball/) |
 | **Bouncing Ball v2** | Alternative approach to bouncing ball animation | [Open](./bouncing-ball-v2/) |
