@@ -40,6 +40,12 @@ Responsive Netflix landing page clone built using HTML & CSS
 
 ---
 
+### 🔐 Secret Login Page  
+Fun password-protected page built using HTML, CSS, and JavaScript  
+👉 [View Project](./secret-login-page/) 👉 [Live Demo](https://secret-login-page.netlify.app/)
+
+---
+
 ### 🏀 Bouncing Ball Animation
 A smooth CSS animation demonstrating motion, gravity, and boundaries.  
 👉 [View Project](./bouncing-ball)
@@ -62,6 +68,7 @@ Periodic table layout using HTML & CSS
 
 | Project Name | Description | Link |
 |-------------|------------|------|
+| **Secret Login Page** | Fun password protected page using JavaScript | [Open](./secret-login-page/) |
 | **Faulty Calculator** | A fun and interactive Faulty Calculator | [Open](./faulty-calculator-js/) |
 | **Netflix Clone** | Responsive Netflix Landing Page Clone | [Open](./netflix-ui-clone/) | 
 | **Bouncing Ball** | CSS bouncing ball animation | [Open](./bouncing-ball/) |
