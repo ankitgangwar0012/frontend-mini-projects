@@ -66,11 +66,12 @@ Periodic table layout using HTML & CSS
 
 ## 📁 All Projects (Newest First)
 
-| Project Name | Description | Link |
-|-------------|------------|------|
-| **Secret Login Page** | Fun password protected page using JavaScript | [Open](./secret-login-page/) |
+| Project Name | Description | Link | Live Demo |
+|-------------|------------|------| ----------- |
+| **CSS loader** | A simple circular loading spinner animation | [Open](./css-loader/) | 🌐 [Live Demo](https://coruscating-florentine-8b9334.netlify.app/) |
+| **Secret Login Page** | Fun password protected page using JavaScript | [Open](./secret-login-page/) | 🌐 [Live Demo](https://secret-login-page.netlify.app/) |
 | **Faulty Calculator** | A fun and interactive Faulty Calculator | [Open](./faulty-calculator-js/) |
-| **Netflix Clone** | Responsive Netflix Landing Page Clone | [Open](./netflix-ui-clone/) | 
+| **Netflix Clone** | Responsive Netflix Landing Page Clone | [Open](./netflix-ui-clone/) | 🌐 [Live Demo](https://netflax-dotcom.netlify.app/) |
 | **Bouncing Ball** | CSS bouncing ball animation | [Open](./bouncing-ball/) |
 | **Bouncing Ball v2** | Alternative approach to bouncing ball animation | [Open](./bouncing-ball-v2/) |
 | **Side Navbar** | Sidebar navigation UI | [Open](./side-navbar/) |
