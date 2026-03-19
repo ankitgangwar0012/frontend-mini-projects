@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+.container {
+    color: white;
+
+}
+
+.card {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 4px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.413);
+}
+
+.card .thumbnail {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card img {
+    width: 170px;
+}
+
+.card .thumbnail span {
+    display: block;
+    position: absolute;
+    background-color: #333;
+    padding: 2px 7px;
+    border-radius: 4px;
+    bottom: 3px;
+    right: 3px;
+}
+
+.card-content h2 {
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0 0 10px;
+
+}
+
+.card-content span {
+    margin-right: 7px;
+}
+
+/* Button - styling */
+button.add-card {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin: 20px 10px;
+    border: 2px solid;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+button.add-card:hover {
+    background-color: #333;
+}
