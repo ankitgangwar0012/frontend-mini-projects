@@ -41,8 +41,16 @@ Responsive Netflix landing page clone built using HTML & CSS
 ---
 
 ### 🔐 Secret Login Page  
-Fun password-protected page built using HTML, CSS, and JavaScript  
+Fun password-protected page built using HTML, CSS, and JavaScript.
+
 👉 [View Project](./secret-login-page/) 👉 [Live Demo](https://secret-login-page.netlify.app/)
+
+---
+
+### 🎬 YouTube Card Generator  
+Dynamic YouTube-style card generator built with HTML, CSS & JS.
+
+👉 [View Project](./youtube-card-generator/)  👉 [Live Demo](https://youtube-card-generator-f4dd04.netlify.app/)
 
 ---
 
@@ -68,6 +76,7 @@ Periodic table layout using HTML & CSS
 
 | Project Name | Description | Link | Live Demo |
 |-------------|------------|------| ----------- |
+| **YouTube Card Generator** | Dynamic YouTube-style card generator | [Open](./youtube-card-generator/) | 🌐 [Live Demo](https://youtube-card-generator-f4dd04.netlify.app/) |
 | **CSS loader** | A simple circular loading spinner animation | [Open](./css-loader/) | 🌐 [Live Demo](https://coruscating-florentine-8b9334.netlify.app/) |
 | **Secret Login Page** | Fun password protected page using JavaScript | [Open](./secret-login-page/) | 🌐 [Live Demo](https://secret-login-page.netlify.app/) |
 | **Faulty Calculator** | A fun and interactive Faulty Calculator | [Open](./faulty-calculator-js/) |
