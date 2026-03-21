@@ -35,8 +35,14 @@ Each project is organized in its own folder with clean structure and live previe
 ## 🚀 Featured Projects
 
 ### 🎬 Netflix Clone UI  
-Responsive Netflix landing page clone built using HTML & CSS  
+Responsive Netflix landing page clone built using HTML & CSS.  
 👉 [View Project](./netflix-ui-clone/) 👉[Live Demo](https://netflax-dotcom.netlify.app/)
+
+---
+
+### 💡 Disco Light Simulator
+Interactive disco lighting web app built using HTML, CSS & JavaScript.  
+👉 [View Project](./disco-light-simulator/) 👉[Live Demo](https://disco-light-simulator.netlify.app/)
 
 ---
 
@@ -76,6 +82,7 @@ Periodic table layout using HTML & CSS
 
 | Project Name | Description | Link | Live Demo |
 |-------------|------------|------| ----------- |
+| **Disco Light Simulator** | interactive Disco Light Simulator |[Open](./disco-light-simulator/) | 🌐 [Live Demo](https://disco-light-simulator.netlify.app/) |
 | **YouTube Card Generator** | Dynamic YouTube-style card generator | [Open](./youtube-card-generator/) | 🌐 [Live Demo](https://youtube-card-generator-f4dd04.netlify.app/) |
 | **CSS loader** | A simple circular loading spinner animation | [Open](./css-loader/) | 🌐 [Live Demo](https://coruscating-florentine-8b9334.netlify.app/) |
 | **Secret Login Page** | Fun password protected page using JavaScript | [Open](./secret-login-page/) | 🌐 [Live Demo](https://secret-login-page.netlify.app/) |
