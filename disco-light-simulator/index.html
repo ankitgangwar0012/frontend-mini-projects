@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disco Light Simulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.gif" type="image/x-icon">
+
+    <!-- Extra Meta-Data -->
+    <meta name="description"
+        content="Interactive Disco Lights web app built with JavaScript. Features dynamic color modes, speed control, and smooth animations.">
+
+    <meta name="keywords"
+        content="disco lights, javascript project, animation, web development, frontend project, css effects, js mini project">
+
+    <meta name="author" content="Ankit Gangwar">
+
+    <!-- Open Graph (for sharing) -->
+    <meta property="og:title" content="GlowSync – Interactive Disco Lights">
+    <meta property="og:description"
+        content="Play with dynamic disco light animations with speed control and multiple modes.">
+    <meta property="og:type" content="website">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#00ffcc">
+</head>
+
+<body>
+    <h1>Disco Light Simulator</h1>
+    <div class="container">
+        <div class="bulb"></div>
+        <div class="bulb"></div>
+        <div class="bulb"></div>
+        <div class="bulb"></div>
+    </div>
+    <div class="btns">
+        <button class="start-stop-btn">Start</button>
+        <button class="mode-btn">Random Mode</button>
+        <div class="slider">
+            <label for="speed-slider" class="slider-label">Speed : Avg</label>
+            <input type="range" name="speed" id="speed-slider" min="0" max="100" step="50">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

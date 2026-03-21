@@ -1,0 +1,78 @@
+body {
+    background: radial-gradient(circle, #222, #000);
+    margin: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.bulb {
+    background-color: #333;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 4px 34px;
+    transition: all 0.2s ease;
+}
+
+
+
+.glow {
+    box-shadow: 0 0 60px currentColor,
+        0 0 40px currentColor,
+        0 0 20px currentColor;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    gap: 20px;
+}
+
+.btns>button {
+    color: white;
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 4px 10px;
+    font-size: 1.1em;
+    transition: all 0.2s ease;
+}
+
+.btns>button:hover {
+    background-color: #444;
+    cursor: pointer;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+#speed-slider {
+    color: white;
+}
+
+/* Responsive to Phone */
+@media screen and (max-width:500px) {
+    .bulb {
+        width: 35px;
+        height: 35px;
+        margin: 8px 15px;
+    }
+
+    .btns {
+        flex-direction: column;
+    }
+}
