@@ -60,6 +60,12 @@ Dynamic YouTube-style card generator built with HTML, CSS & JS.
 
 ---
 
+### 💻 Hacker Terminal Simulator  
+Fake hacker terminal animation built using HTML, CSS & JavaScript.  
+👉 [View Project](./hackers-terminal/) 👉 [Live Demo](https://hackers-terminal-fun-project.netlify.app/)
+
+---
+
 ### 🏀 Bouncing Ball Animation
 A smooth CSS animation demonstrating motion, gravity, and boundaries.  
 👉 [View Project](./bouncing-ball)
@@ -72,17 +78,13 @@ A visually accurate keyboard layout built using CSS Grid.
 
 ---
 
-### 🧮 Periodic Table UI
-Periodic table layout using HTML & CSS  
-👉 [View Project](./periodic-table-ui/)
-
----
 
 ## 📁 All Projects (Newest First)
 
 | Project Name | Description | Link | Live Demo |
 |-------------|------------|------| ----------- |
-| **Disco Light Simulator** | interactive Disco Light Simulator |[Open](./disco-light-simulator/) | 🌐 [Live Demo](https://disco-light-simulator.netlify.app/) |
+| **Hacker Terminal Simulator** | Fake hacker terminal animation with async effects | [Open](./hackers-terminal/) | 🌐 [Live Demo](https://hackers-terminal-fun-project.netlify.app/) |
+| **Disco Light Simulator** | Interactive Disco Light Simulator |[Open](./disco-light-simulator/) | 🌐 [Live Demo](https://disco-light-simulator.netlify.app/) |
 | **YouTube Card Generator** | Dynamic YouTube-style card generator | [Open](./youtube-card-generator/) | 🌐 [Live Demo](https://youtube-card-generator-f4dd04.netlify.app/) |
 | **CSS loader** | A simple circular loading spinner animation | [Open](./css-loader/) | 🌐 [Live Demo](https://coruscating-florentine-8b9334.netlify.app/) |
 | **Secret Login Page** | Fun password protected page using JavaScript | [Open](./secret-login-page/) | 🌐 [Live Demo](https://secret-login-page.netlify.app/) |
